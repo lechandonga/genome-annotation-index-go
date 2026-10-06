@@ -1,0 +1,6 @@
+##gff-version 3
+chr1	annot	gene	1	120	.	+	.	ID=GENE1;Name=demo-gene
+chr1	annot	mRNA	1	120	.	+	.	ID=TX1;Parent=GENE1
+chr1	annot	exon	1	40	.	+	.	Parent=TX1
+chr1	annot	exon	81	120	.	+	.	Parent=TX1
+chr1	annot	gene	150	200	.	-	.	ID=GENE2;Name=minus-gene
