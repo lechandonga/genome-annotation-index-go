@@ -1,0 +1,9 @@
+##gff-version 3
+chr1	test	gene	1	1000	.	+	.	ID=ok1
+chr1	test	gene	0	10	.	+	.	ID=zeroStart
+chr1	test	gene	5	4	.	+	.	ID=inverted
+chr1	test	gene	abc	10	.	+	.	ID=badNumber
+chr1	test	gene	1	10	.	X	.	ID=badStrand
+badcols	line
+chr1	test	gene	1	10	.	+	.	ID=badAttr;notkv
+chr1	test	exon	1	10	.	+	.	ID=orphan;Parent=missingParent
